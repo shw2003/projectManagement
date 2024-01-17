@@ -4,12 +4,13 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APPID,
+  apiKey: "AIzaSyDtTsMcZoxB0k06XHhJ-hP9f3xn5CDab4A",
+  authDomain: "capstone-b8be2.firebaseapp.com",
+  projectId: "capstone-b8be2",
+  storageBucket: "capstone-b8be2.appspot.com",
+  messagingSenderId: "742537902743",
+  appId: "1:742537902743:web:264104cfae19d11dbd07d2",
+  // measurementId: "G-3ZYB4P5P19",
 };
 
 firebase.initializeApp(firebaseConfig);
